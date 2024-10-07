@@ -1,9 +1,3 @@
-// Nom du projet : TP_premier_prog
-// Nom de l’auteur : AUGER Kyllian
-// Date de création :  09 septembre 2024 
-// Révision ou version : (facultatif pour les TPs) 
-// Version du compilateur : (facultatif) 
-// Résumé : Permet d'executer un message "Votre premier programme" 
 
 #include <stdio.h>
 #include <conio.h> 
@@ -19,7 +13,7 @@ int main()
 
 	printf("Votre premier programme\n");
 	//printf("\nSection %s promotion %d\n", "CIEL", 2026);
-//	printf("\nLe point de fusion du mercure est de %F \xF8 C \n soit environ %F \xF8 C \n", 38.842, -38.842); 	 //permet d'afficher la température du mercure
+//	printf("\nLe point de fusion du mercure est de %F \xF8 C \n soit environ %F \xF8 C \n", 38.842, -38.842); 	 //permet d'afficher la tempÃ©rature du mercure
 	//printf("Total : %d \n ", printf("Premier programme\n"));
 //	nbCara = printf("Premier programme\n") - 1;
 //	printf("Le nombre de caractere:  %d\n", nbCara);
@@ -52,8 +46,8 @@ int main()
 
 
 	printf("Entrer un nombre en hexadecimal : ");   // Affichage Console pour tapez un nombre
-	scanf_s("%x", &nbHex);     //le scanf_s lit les données 
-	printf("Vous avez saisi %#x (%d).\n", nbHex, nbHex);   //Sort la conversion en exadéciamel
+	scanf_s("%x", &nbHex);     //le scanf_s lit les donnÃ©es 
+	printf("Vous avez saisi %#x (%d).\n", nbHex, nbHex);   //Sort la conversion en exadÃ©ciamel
 	_getch();
 
 	return(0);
